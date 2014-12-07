@@ -38,13 +38,7 @@ ENV JAVA_RPM jdk-8u25-linux-x64.rpm
 ENV FMW_PKG  fmw_12.1.3.0.0_coherence_Disk1_1of1.zip
 ENV FMW_JAR  fmw_12.1.3.0.0_coherence.jar
 ENV FMW_DIR  coherence12130
-
-# WLS Admin Password (you may change)
-# This password is used for:
-#  (a) 'weblogic' admin user of WebLogic 
-#  (b) 'oracle' Linux user in this image
-# -----------------------------------
-ENV ADMIN_PASSWORD welcome1
+ENV COHERENCE_HOME /u01/$FMW_DIR/coherence
 
 # Install and configure Oracle JDK 8u25
 # -------------------------------------
@@ -57,21 +51,18 @@ ENV CONFIG_JVM_ARGS -Djava.security.egd=file:/dev/./urandom
 # ------------------------------------------------------------
 # Enable this if behind proxy
 # RUN sed -i -e '/^\[main\]/aproxy=http://proxy.com:80' /etc/yum.conf
-RUN yum install -y unzip
-RUN mkdir /u01
-RUN chmod a+x /u01
-RUN chmod a+r /u01
+RUN yum install -y unzip && yum clean all
+RUN mkdir /u01 && chmod a+x /u01 && chmod a+r /u01
 RUN useradd -b /u01 -m -s /bin/bash oracle
-RUN echo oracle:$ADMIN_PASSWORD | chpasswd
+RUN echo oracle:oracle | chpasswd
 
 # Add files required to build this image
 ADD $FMW_PKG /u01/
 ADD oraInst.loc /u01/oraInst.loc
 ADD install.file /u01/install.file
 
-# Adjust file permissions, go to /u01 as user 'oracle' to proceed with WLS installation
-RUN chown oracle:oracle -R /u01
 WORKDIR /u01
+RUN chown oracle:oracle -R /u01
 USER oracle
 
 # Installation of Coherence
@@ -83,10 +74,13 @@ RUN ln -s /u01/oracle/$FMW_DIR /u01/oracle/coherence
 WORKDIR /u01/oracle/$FMW_DIR
 
 # Cleanup
+USER root
 RUN rm /u01/oraInst.loc /u01/install.file 
 
 # Expose Node Manager default port, and also default http/https ports for admin console
 # EXPOSE 5556 7001 7002
+
+VOLUME /u01/oracle/coherence_config
 
 # Define default command to start bash. 
 CMD ["bash"]

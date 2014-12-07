@@ -1,4 +1,4 @@
-# Oracle Coherence 12c Generic Image
+# Oracle Coherence 12c Docker Image
 
 This is a Dockerfile for [Oracle Coherence 12c](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html). The purpose of this Docker container is to facilitate the setup of development and integration testing environments for developers.
 

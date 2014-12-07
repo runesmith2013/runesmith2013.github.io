@@ -6,6 +6,13 @@ This image uses the Standalone Distribution of Coherence 12c.
 
 **IMPORTANT**: Oracle **does not support Docker** in any environment, including but not limited to Development, Integration, and Production environments.
 
+## Install Oracle Linux 7 Base Docker Image
+The Dockerfile contained in this project will build image based on the Oracle Linux 7.0 Base Docker Image. In order to easily install that, run the following script:
+
+	$ install-ol7-docker-image.sh
+
+For more information and documentation, read the [Docker Images from Oracle Linux](http://public-yum.oracle.com/docker-images) page.
+
 ### Standalone Distribution
 Fore more information on the Coherence 12c Standalone Distribution, visit [Coherence 12.1.3 Documentation](http://docs.oracle.com/middleware/1213/coherence/index.html).
 

@@ -37,8 +37,11 @@ Follow this procedure:
 
 Along with the Dockerfile, two scripts are also provided to help you run Cache Servers, and the Coherence Console (without local storage).
 
-	$ sudo sh dockCacheServer.sh [full path for dir with tangosol-coherence-override.xml and cache configs>]
-	$ sudo sh dockCoherenceConsole.sh [full path for dir with tangosol-coherence-override.xml and cache configs]
+Start a CacheServer:
+	$ sudo sh dockCacheServer.sh [fullpath dir w/ tangosol-coherence-override.xml and cache configs]
+
+Start Coherence Console:
+	$ sudo sh dockCoherenceConsole.sh [fullpath dir w/ tangosol-coherence-override.xml and cache configs]
 
 ## Dockerfile Source
 All source is on the [weblogic-docker GitHub repository](https://github.com/weblogic-community/weblogic-docker).

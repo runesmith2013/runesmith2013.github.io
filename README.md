@@ -44,10 +44,10 @@ Start Coherence Console:
 	$ sudo sh dockCoherenceConsole.sh [fullpath dir w/ tangosol-coherence-override.xml and cache configs]
 
 ## Dockerfile Source
-All source is on the [weblogic-docker GitHub repository](https://github.com/weblogic-community/weblogic-docker).
+All source is on the [coherence-docker GitHub repository](https://github.com/brunoborges/coherence-docker).
 
 ## Issues
-If you find any issues, please report through the [GitHub Issues page](https://github.com/weblogic-community/weblogic-docker/issues) with label "**Generic**".
+If you find any issues, please report through the [GitHub Issues page](https://github.com/brunoborges/coherence-docker/issues).
 
 ## License
 To download and run Coherence 12c Distribution regardless of inside or outside a Docker container, and regardless of which distribution, you must agree and accept the [OTN Standard License Terms](http://www.oracle.com/technetwork/licenses/standard-license-152015.html).

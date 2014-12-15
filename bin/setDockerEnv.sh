@@ -2,6 +2,10 @@
 DOCKER_IMAGE_NAME="oracle/coherence:12.1.3"
 
 if [ "$1" = "" ] || [ "$1" = "-h" ]; then
+  MAY_SHOW_USAGE="true"
+fi
+
+if [ "$DOCKING" != "false" ] && [ "$MAY_SHOW_USAGE" = "true" ]; then
   echo ""
   echo "Oracle Coherence 12c on Docker"
   echo "------------------------------"

@@ -1,7 +1,7 @@
 #!/bin/bash
-
+DOCKING="false"
 SCRIPTS_DIR="$( cd "$( dirname "$0" )" && pwd )"
-. $SCRIPTS_DIR/setDockerEnv.sh "mock" 
+. $SCRIPTS_DIR/setDockerEnv.sh  
 
 cd $SCRIPTS_DIR/..
 

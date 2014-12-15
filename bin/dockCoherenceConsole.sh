@@ -1,13 +1,7 @@
 #!/bin/sh
-DOCKER_IMAGE_NAME=oracle/coherence:12.1.3
-if [ ""$1 = "" ]
-then
-  echo "You must supply a parameter for a folder containing 'tangosol-coherence-override.xml' and your Cache configuration files. Example:"
-  echo ""
-  echo " $ sudo sh dockCoherenceConsole.sh `pwd`/example-grid"
-  echo ""
-  exit
-fi
+
+SCRIPTS_DIR="$( cd "$( dirname "$0" )" && pwd )"
+. $SCRIPTS_DIR/setDockerEnv.sh $*
 
 # RUN THE DOCKER COMMAND
 docker run -ti \

@@ -1,5 +1,10 @@
 #!/bin/bash
-IMAGE_NAME=oracle/coherence:12.1.3
+
+SCRIPTS_DIR="$( cd "$( dirname "$0" )" && pwd )"
+. $SCRIPTS_DIR/setDockerEnv.sh "mock" 
+
+cd $SCRIPTS_DIR/..
+
 JAVA_VERSION="8u25"
 JAVA_PKG="jdk-${JAVA_VERSION}-linux-x64.rpm"
 JAVA_PKG_MD5="6a8897b5d92e5850ef3458aa89a5e9d7"
@@ -49,8 +54,8 @@ fi
 
 echo "====================="
 
-docker build -t $IMAGE_NAME .
+docker build -t $DOCKER_IMAGE_NAME .
 
 echo ""
-echo "Coherence Docker Container is ready to be used. To start, run 'dockCoherence.sh'"
+echo "Coherence Docker Container is ready to be used. To start, run 'dockCacheServer.sh -h'"
 

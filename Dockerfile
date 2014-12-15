@@ -43,42 +43,45 @@ ENV COHERENCE_HOME /u01/$FMW_DIR/coherence
 # Install and configure Oracle JDK 8u25
 # -------------------------------------
 ADD $JAVA_RPM /root/
-RUN rpm -i /root/$JAVA_RPM
+RUN rpm -i /root/$JAVA_RPM && rm /root/$JAVA_RPM
 ENV JAVA_HOME /usr/java/default
 ENV CONFIG_JVM_ARGS -Djava.security.egd=file:/dev/./urandom
 
 # Setup required packages (unzip), filesystem, and oracle user
 # ------------------------------------------------------------
-# Enable this if behind proxy
-# RUN sed -i -e '/^\[main\]/aproxy=http://proxy.com:80' /etc/yum.conf
-RUN yum install -y unzip && yum clean all
-RUN mkdir /u01 && chmod a+x /u01 && chmod a+r /u01
-RUN useradd -b /u01 -m -s /bin/bash oracle
-RUN echo oracle:oracle | chpasswd
+RUN yum install -y unzip && \ 
+    yum clean all && \ 
+    mkdir /u01 && chmod a+xr /u01 && \ 
+    useradd -b /u01 -m -s /bin/bash oracle && \
+    echo oracle:oracle | chpasswd
 
-# Add files required to build this image
-ADD $FMW_PKG /u01/
-ADD oraInst.loc /u01/oraInst.loc
-ADD install.file /u01/install.file
+# Copy files required to build this image
+COPY $FMW_PKG /u01/
+COPY oraInst.loc /u01/oraInst.loc
+COPY install.file /u01/install.file
 
 WORKDIR /u01
 RUN chown oracle:oracle -R /u01
 USER oracle
 
 # Installation of Coherence
-RUN unzip /u01/$FMW_PKG -d /u01/oracle/ > /dev/null && rm $FMW_PKG
-RUN mkdir /u01/oracle/.inventory
+RUN unzip /u01/$FMW_PKG -d /u01/oracle/ > /dev/null && \
+    rm $FMW_PKG && \
+    mkdir /u01/oracle/.inventory && \
+    yum erase unzip
+
 WORKDIR /u01/oracle
-RUN java -jar $FMW_JAR -silent -responseFile /u01/install.file -invPtrLoc /u01/oraInst.loc -jreLoc $JAVA_HOME && rm $FMW_JAR
-RUN ln -s /u01/oracle/$FMW_DIR /u01/oracle/coherence
+
+RUN java -jar $FMW_JAR -silent -responseFile /u01/install.file -invPtrLoc /u01/oraInst.loc -jreLoc $JAVA_HOME && \ 
+    rm $FMW_JAR && \ 
+    ln -s /u01/oracle/$FMW_DIR /u01/oracle/coherence
+
 WORKDIR /u01/oracle/$FMW_DIR
 
 # Cleanup
 USER root
-RUN rm /u01/oraInst.loc /u01/install.file 
 
-# Expose Node Manager default port, and also default http/https ports for admin console
-# EXPOSE 5556 7001 7002
+RUN rm /u01/oraInst.loc /u01/install.file 
 
 VOLUME /u01/oracle/coherence_config
 

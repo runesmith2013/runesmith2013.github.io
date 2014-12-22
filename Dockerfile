@@ -42,7 +42,7 @@ ENV COHERENCE_HOME /u01/$FMW_DIR/coherence
 
 # Install and configure Oracle JDK 8u25
 # -------------------------------------
-ADD $JAVA_RPM /root/
+COPY config/$JAVA_RPM /root/
 RUN rpm -i /root/$JAVA_RPM && rm /root/$JAVA_RPM
 ENV JAVA_HOME /usr/java/default
 ENV CONFIG_JVM_ARGS -Djava.security.egd=file:/dev/./urandom
@@ -50,15 +50,14 @@ ENV CONFIG_JVM_ARGS -Djava.security.egd=file:/dev/./urandom
 # Setup required packages (unzip), filesystem, and oracle user
 # ------------------------------------------------------------
 RUN yum install -y unzip && \ 
-    yum clean all && \ 
     mkdir /u01 && chmod a+xr /u01 && \ 
     useradd -b /u01 -m -s /bin/bash oracle && \
     echo oracle:oracle | chpasswd
 
 # Copy files required to build this image
-COPY $FMW_PKG /u01/
-COPY oraInst.loc /u01/oraInst.loc
-COPY install.file /u01/install.file
+COPY config/$FMW_PKG /u01/
+COPY config/oraInst.loc /u01/oraInst.loc
+COPY config/install.file /u01/install.file
 
 WORKDIR /u01
 RUN chown oracle:oracle -R /u01
@@ -67,8 +66,7 @@ USER oracle
 # Installation of Coherence
 RUN unzip /u01/$FMW_PKG -d /u01/oracle/ > /dev/null && \
     rm $FMW_PKG && \
-    mkdir /u01/oracle/.inventory && \
-    yum erase unzip
+    mkdir /u01/oracle/.inventory
 
 WORKDIR /u01/oracle
 
@@ -80,10 +78,13 @@ WORKDIR /u01/oracle/$FMW_DIR
 
 # Cleanup
 USER root
-
-RUN rm /u01/oraInst.loc /u01/install.file 
+RUN rm /u01/oraInst.loc /u01/install.file && \
+    yum erase -y unzip && \ 
+    yum clean all
 
 VOLUME /u01/oracle/coherence_config
+
+USER oracle
 
 # Define default command to start bash. 
 CMD ["bash"]

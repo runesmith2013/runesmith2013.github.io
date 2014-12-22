@@ -6,9 +6,9 @@ SCRIPTS_DIR="$( cd "$( dirname "$0" )" && pwd )"
 cd $SCRIPTS_DIR/..
 
 JAVA_VERSION="8u25"
-JAVA_PKG="jdk-${JAVA_VERSION}-linux-x64.rpm"
+JAVA_PKG="config/jdk-${JAVA_VERSION}-linux-x64.rpm"
 JAVA_PKG_MD5="6a8897b5d92e5850ef3458aa89a5e9d7"
-FMW_PKG="fmw_12.1.3.0.0_coherence_Disk1_1of1.zip"
+FMW_PKG="config/fmw_12.1.3.0.0_coherence_Disk1_1of1.zip"
 FMW_PKG_MD5="a4affba654a0664284e6a454341f3e93"
 
 # Validate Java Package

@@ -3,12 +3,11 @@
 wassup
 
 <body >
- 
   <div id="main">
     <div id="content">
       {{ content | expand_urls: root_url }}
     </div>
   </div>
-  
+  <footer role="contentinfo">{% include footer.html %}</footer>
 </body>
 </html>

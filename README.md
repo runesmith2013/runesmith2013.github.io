@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Oracle Coherence 12c Docker Image
 
 This is a Dockerfile for [Oracle Coherence 12c](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html). The purpose of this Docker container is to facilitate the setup of development and integration testing environments for developers.
@@ -62,3 +63,6 @@ To download and run Coherence 12c Distribution regardless of inside or outside a
 To download and run Oracle JDK regardless of inside or outside a Docker container, you must agree and accept the [Oracle Binary Code License Agreement for Java SE](http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
 
 All scripts and files hosted in this project on GitHub [coherence-docker](https://github.com/brunoborges/coherence-docker/) repository required to build the Docker images are, unless otherwise noted, released under the Common Development and Distribution License (CDDL) 1.0 and GNU Public License 2.0 licenses, except for the files listed above with their specific licenses.
+=======
+# runesmith2013.github.io
+>>>>>>> origin/master

@@ -1,0 +1,6 @@
+Redirect permanent /feeds/posts/default/-/gtotw http://alblue.bandlem.com/Tag/gtotw/atom.xml
+Redirect permanent /feeds/posts/default/-/git http://alblue.bandlem.com/Tag/git/atom.xml
+Redirect permanent /feeds/posts/default/-/osgi http://alblue.bandlem.com/Tag/osgi/atom.xml
+Redirect permanent /feeds/posts/default/-/java http://alblue.bandlem.com/Tag/java/atom.xml
+Redirect permanent /feeds/posts/default/-/eclipse http://alblue.bandlem.com/Tag/eclipse/atom.xml
+RedirectMatch permanent /feeds/posts/default/-/(.*) http://alblue.bandlem.com/Tag/$1/atom.xml

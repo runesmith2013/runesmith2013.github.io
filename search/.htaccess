@@ -1,0 +1,6 @@
+Redirect permanent /search/label/gtotw http://alblue.bandlem.com/Tag/gtotw/
+Redirect permanent /search/label/git http://alblue.bandlem.com/Tag/git/
+Redirect permanent /search/label/osgi http://alblue.bandlem.com/Tag/osgi/
+Redirect permanent /search/label/java http://alblue.bandlem.com/Tag/java/
+Redirect permanent /search/label/eclipse http://alblue.bandlem.com/Tag/eclipse/
+RedirectMatch permanent /search/label/(.*) http://alblue.bandlem.com/Tag/$1/

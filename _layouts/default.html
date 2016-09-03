@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+  <header role="banner">{% include header.html %}</header>
+  <nav role="navigation">{% include navigation.html %}</nav>
+  <div id="main">
+    <div id="content">
+      {{ content | expand_urls: root_url }}
+    </div>
+  </div>
+  <footer role="contentinfo">{% include footer.html %}</footer>
+  {% include after_footer.html %}
+</body>
+</html>

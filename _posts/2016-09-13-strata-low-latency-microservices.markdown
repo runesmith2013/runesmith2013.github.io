@@ -1,17 +1,13 @@
 ---
-permalink: /2016/06/unicode-cuddly-application-server.html
+permalink: 2016/09/strata-low-latency-microservices.html
 layout: post
-title: "Unicode and the Cuddly Throwable Application Server"
+title: "Strata and Low Latency Microservices in Java"
 date: 2016-08-09 18:30
 comments: false
 categories: 
 - '2016'
-- 'Alex Blewitt' 
-- 'Holly Cummins'
-- unicode
-- appserver
-- embedded
-- java
+- 'Peter Lawrey' 
+- 'Stephen Colebourne'
 ---
 
 We are pleased to bring you the fourteenth event of the Docklands.LJC; a group within 

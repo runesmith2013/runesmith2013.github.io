@@ -2,8 +2,10 @@
 {% unless category == '0' %}
 <span class="categories">
   {% if post %}
+  <script>alert(1)</alert></script>
     {{ post.categories | category_links }}
   {% else %}
+  <script>alert(2)</alert></script>
     {{ page.categories | category_links }}
   {% endif %}
 </span>

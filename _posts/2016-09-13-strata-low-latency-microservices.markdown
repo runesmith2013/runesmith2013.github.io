@@ -27,9 +27,9 @@ Strata is the new Open Source library for market risk from OpenGamma, written in
 
 <h2>Bios</h2>
 
-Peter Lawrey has the most answers for Java and JVM on StackOverflow.com (~12K), runs the "Vanilla Java" blog with four million views and ~300 posts, is the founder of the Performance Java User's Group, a virtual JUG with 1800+ members, is the architect of Chronicle Software, an open source project for high performance, low latency libraries in Java, & is a Java Champion 
+<a href="https://twitter.com/PeterLawrey">Peter Lawrey</a> has the most answers for Java and JVM on StackOverflow.com (~12K), runs the "Vanilla Java" blog with four million views and ~300 posts, is the founder of the Performance Java User's Group, a virtual JUG with 1800+ members, is the architect of Chronicle Software, an open source project for high performance, low latency libraries in Java, & is a Java Champion 
 
-Stephen Colebourne is Engineering Lead, Platform at OpenGamma, the creators of Strata. He is best known for his work on open source Java with the "Joda projects". Of these, Joda-Time is the best known, inspiring JSR-310, the new date and time library in Java 8. As a Java Champion and JavaOne Rock Star speaker, he continues to push Java forward.
+<a href="https://twitter.com/jodastephen">Stephen Colebourne</a> is Engineering Lead, Platform at OpenGamma, the creators of Strata. He is best known for his work on open source Java with the "Joda projects". Of these, Joda-Time is the best known, inspiring JSR-310, the new date and time library in Java 8. As a Java Champion and JavaOne Rock Star speaker, he continues to push Java forward.
 
 <hr/>
 This event is being hosted by Barclays in London. Sign-up information is available at <a href="https://www.meetup.com/Londonjavacommunity/events/233870941/">Meetup.com</a>.

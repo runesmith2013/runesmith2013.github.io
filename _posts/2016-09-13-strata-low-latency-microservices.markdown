@@ -2,7 +2,7 @@
 permalink: 2016/09/strata-low-latency-microservices.html
 layout: post
 title: "Strata and Low Latency Microservices in Java"
-date: 2016-08-09 18:30
+date: 2016-09-13 18:30
 comments: false
 categories: 
 - '2016'

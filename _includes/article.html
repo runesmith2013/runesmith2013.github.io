@@ -15,8 +15,7 @@
 {{ time | date: "<div class='calendar'><span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span></div>"}}
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% endif %}
-    {% include post/categories.html %}
-  </header>
+     </header>
 {% endunless %}
 {% if index %}
   <div class="entry-content">{{ content | excerpt }}</div>

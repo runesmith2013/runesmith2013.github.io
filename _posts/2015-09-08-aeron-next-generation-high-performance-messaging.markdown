@@ -44,7 +44,7 @@ with reliable message delivery over UDP and the data structures necessary to
 support transmission and retransmission in in a lock-free and wait-free manner.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/MartinThompson-Aeron.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/MartinThompson-Aeron.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/aeron">available at InfoQ</a>.
 

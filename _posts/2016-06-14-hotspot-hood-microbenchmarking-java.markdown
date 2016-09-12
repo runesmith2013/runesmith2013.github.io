@@ -37,7 +37,7 @@ recommendations of replacements for old patterns which are now anti-patterns in
 existing code. 
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderTheHood.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/AlexBlewitt-HotSpotUnderTheHood.pdf" rel="nofollow">presentation</a>
 and 
 <a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderTheHood.mp4" rel="nofollow">video</a>
 recorded from the event are displayed below:
@@ -63,7 +63,7 @@ discuss some of the outputs from JMH and how they should be reasoned
 to attempt to avoid a poor assumption. 
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/BenEvansJimGough-Microbenchmarking.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/BenEvansJimGough-Microbenchmarking.pdf" rel="nofollow">presentation</a>
 and 
 <a href="//www.docklandsljc.uk/presentations/2016/BenEvansJimGough-Microbenchmarking.mp4" rel="nofollow">video</a>
 recordedrfrom the event are displayed below:

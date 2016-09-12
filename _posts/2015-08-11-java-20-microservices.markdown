@@ -31,7 +31,7 @@ changes, the G1 garbage collector, VarHandles and future projects such as
 Valhalla and Panama.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/SteveElliott-Java-at-20.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/SteveElliott-Java-at-20.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/java-20">are available from InfoQ</a>.
 
@@ -55,7 +55,7 @@ Topics covered include:
 * Pride - selfishly ignoring the new requirements for testing
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/DanielBryant-Microservices.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/DanielBryant-Microservices.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/7-sins-microservices">available from InfoQ</a>.
 

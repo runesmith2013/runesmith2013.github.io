@@ -18,7 +18,7 @@ categories:
 - javascript
 ---
 
-We are pleased to bring you the tenth event of the Docklands.LJC; a groupa
+We are pleased to bring you the tenth event of the Docklands.LJC; a group
 within the main London Java Community that focuses on the developer community
 in and around Docklands on the second Tuesday of each month. Our speakers this
 month are Chris Seaton and Mark Needham.

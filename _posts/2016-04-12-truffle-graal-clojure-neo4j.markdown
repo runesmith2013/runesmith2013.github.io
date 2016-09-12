@@ -59,7 +59,7 @@ manipulation.
 The
 <a href="{{ site.github.url }}/presentations/2016/MarkNeedham-ClojureNeo4J.pdf" rel="nofollow">presentation</a>
 and
-<a href="//www.docklandsljc.uk/presentations/2016/MarkNeedham-ClojureNeo4J.mp4" rel="nofollow">video</a>
+<a href="https://youtu.be/8TG78BHJNCk" rel="nofollow">video</a>
 recorded from the event are displayed below:
 
 <video width="640" height="320" controls>

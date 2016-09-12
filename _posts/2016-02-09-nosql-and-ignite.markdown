@@ -39,7 +39,7 @@ be used to demonstrate Create, Read, Update and Delete (CRUD) operations for
 several leading NoSQL database products.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/AkmalBChaudhri-NoSQL.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/AkmalBChaudhri-NoSQL.pdf" rel="nofollow">presentation</a>
 and
 <a href="//www.docklandsljc.uk/presentations/2016/AkmalBChaudhri-NoSQL.mp4" rel="nofollow">video</a>
 recorded from the event are displayed below:
@@ -64,7 +64,7 @@ challenges. We will cover a few typical use cases and work through some
 examples.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/ChristosErotocritou-ApacheIgnite.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/ChristosErotocritou-ApacheIgnite.pdf" rel="nofollow">presentation</a>
 and video recorded from the event are
 <a href="https://www.infoq.com/presentations/apache-ignite">available from InfoQ</a>.
 

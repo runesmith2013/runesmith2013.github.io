@@ -40,7 +40,7 @@ introduce the <a href="https://github.com/AdoptOpenJDK/jitwatch">JITWatch</a> to
 able to get the best performance from your code.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/ChrisNewland-JITWatch.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/ChrisNewland-JITWatch.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/jitwatch">available at InfoQ</a>.
 
@@ -60,7 +60,7 @@ limitations, tuning advice and their performance. We will also look at recent
 and future changes to garbage collection.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/JohnOliver-GarbageCollection.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/JohnOliver-GarbageCollection.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/G1-Shenandoah">available at InfoQ</a>.
 

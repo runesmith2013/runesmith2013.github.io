@@ -29,7 +29,7 @@ months into the project, and I want to share the success stories and horror
 stories with the audience.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/AndyBenDyke-MicroservicesFromTheTrench.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/AndyBenDyke-MicroservicesFromTheTrench.pdf" rel="nofollow">presentation</a>
 and
 <a href="//www.docklandsljc.uk/presentations/2016/AndyBenDyke-MicroservicesFromTheTrench.mp4" rel="nofollow">video</a>
 recorded from the event are displayed below:
@@ -44,7 +44,7 @@ recorded from the event are displayed below:
 A great deal of time and energy is spent on Big Data initiatives. But the question remains, what are the drivers behind these initiatives and how do you approach using all of that data?  I would like to share some thoughts about the application of Big Data.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/GraemeSeaton-ApplyingBigData.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/GraemeSeaton-ApplyingBigData.pdf" rel="nofollow">presentation</a>
 and
 <a href="https://www.infoq.com/presentations/big-data-initiatives" rel="nofollow">video</a>
 recorded from the event are available at <a href="https://www.infoq.com/presentations/big-data-initiatives">InfoQ</a>.

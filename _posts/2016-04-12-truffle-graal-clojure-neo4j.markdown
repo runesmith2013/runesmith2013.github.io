@@ -46,6 +46,7 @@ performance.
 The
 <a href="{{ site.github.url }}/presentations/2016/ChrisSeaton-TruffleGraal.pdf" rel="nofollow">presentation</a>
 and video recorded from the event
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5gKXFSg7onE" frameborder="0" allowfullscreen></iframe>
 <a href="//www.infoq.com/presentations/graal-trufle">are now available on InfoQ</a>.
 
 <h2>Mark Needham - Using Clojure and Neo4j to build a meetup recommendation engine</h2>

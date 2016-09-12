@@ -44,7 +44,7 @@ Java, Python, Ruby, R and JavaScript, while also achieving this very high
 performance. 
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/ChrisSeaton-TruffleGraal.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/ChrisSeaton-TruffleGraal.pdf" rel="nofollow">presentation</a>
 and video recorded from the event
 <a href="//www.infoq.com/presentations/graal-trufle">are now available on InfoQ</a>.
 
@@ -57,7 +57,7 @@ graph query language - to find patterns in the graph and Clojure to do the data
 manipulation.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/MarkNeedham-ClojureNeo4J.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/MarkNeedham-ClojureNeo4J.pdf" rel="nofollow">presentation</a>
 and
 <a href="//www.docklandsljc.uk/presentations/2016/MarkNeedham-ClojureNeo4J.mp4" rel="nofollow">video</a>
 recorded from the event are displayed below:

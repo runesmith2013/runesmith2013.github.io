@@ -52,7 +52,7 @@ This tool provides insight into application behaviour and permits the
 developers to discover application level issues.
 
 The 
-<a href="//www.docklandsljc.uk/presentations/2015/SimonMaple-Profilers.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/SimonMaple-Profilers.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/docklands-ljc">available at InfoQ</a>.
 

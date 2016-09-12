@@ -38,7 +38,7 @@ how to run various distributed compute operations over it, such as Query,
 Aggregations and Map Reduce.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/DavidBrimley-Hazelcast.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/DavidBrimley-Hazelcast.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/hazelcast-distributed-system">available from InfoQ</a>.
 
@@ -54,7 +54,7 @@ create template Java REST servers with technologies such as Jersey, JAXB and
 Jackson.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/DavidGarry-Swagger.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/DavidGarry-Swagger.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/java-rest-swagger">available from InfoQ</a>.
 

@@ -36,7 +36,7 @@ including some lesser known history. We will also look at the current roadmap of
 Java going forwards. 👻☕️
 
 The
-<a href="//www.docklandsljc.uk/presentations/2015/SteveElliott-Ghosts-of-Java.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2015/SteveElliott-Ghosts-of-Java.pdf" rel="nofollow">presentation</a>
 and video recorded from the event are 
 <a href="https://www.infoq.com/presentations/java-past-present-future" rel="nofollow">available from InfoQ</a>.
 

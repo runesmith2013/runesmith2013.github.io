@@ -62,6 +62,8 @@ and
 <a href="https://youtu.be/8TG78BHJNCk" rel="nofollow">video</a>
 recorded from the event are displayed below:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TG78BHJNCk" frameborder="0" allowfullscreen></iframe>
+
 <video width="640" height="320" controls>
  <source src="//www.docklandsljc.uk/presentations/2016/MarkNeedham-ClojureNeo4J.mp4" type="video/mp4"/>
  Your browser does not support the &lt;video&gt; tag or does not understand MP4 files.

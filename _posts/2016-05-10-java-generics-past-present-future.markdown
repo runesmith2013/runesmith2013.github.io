@@ -39,7 +39,7 @@ wanted to understand the buzz around value types or declaration site variance
 now is your chance!
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.pdf" rel="nofollow">presentation</a>
 and 
 <a href="//www.docklandsljc.uk/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.mp4" rel="nofollow">video</a>
 recorded from the event are displayed below:

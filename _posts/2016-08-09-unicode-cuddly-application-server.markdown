@@ -39,7 +39,7 @@ discussing with your boss).
 Source code is available at <a href="https://github.com/holly-cummins/throwable-application-server">https://github.com/holly-cummins/throwable-application-server</a> if you'd like further information.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/HollyCummins-ThrowableCuddlyApplicationServer.pdf" rel="nofollow">presentation</a> from the event is displayed below:
+<a href="{{ site.github.url }}/presentations/2016/HollyCummins-ThrowableCuddlyApplicationServer.pdf" rel="nofollow">presentation</a> from the event is displayed below:
 <!--
 and 
 <a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderTheHoo
@@ -76,7 +76,7 @@ at the start of a document, why Windows sometimes produces ï»¿, or why a flag
 can take up to 10 characters to represent.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-BriefHistoryOfUnicode.pdf" rel="nofollow">presentation</a>
+<a href="{{ site.github.url }}/presentations/2016/AlexBlewitt-BriefHistoryOfUnicode.pdf" rel="nofollow">presentation</a>
 is available below:
 <!--
 and 

@@ -30,7 +30,7 @@ and the choices that OSGi made in bringing modularisation to the Java runtime.
 We'll also look ahead and ask how OSGi and Jigsaw will evolve in the future.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-ModularityOSGi.pdf" rel="nofollow">presentation</a>
+<a href="{site.url}/presentations/2016/AlexBlewitt-ModularityOSGi.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/jvm-osgi">available at InfoQ</a>.
 
@@ -50,7 +50,7 @@ terms of building their applications, as well as helping them to understand how
 things like encapsulation will change in JDK 9.
 
 The
-<a href="//www.docklandsljc.uk/presentations/2016/SimonRitter-Jigsaw.pdf" rel="nofollow">presentation</a>
+<a href="{site.url}/presentations/2016/SimonRitter-Jigsaw.pdf" rel="nofollow">presentation</a>
 and video
 recorded from the event are <a href="https://www.infoq.com/presentations/jigsaw-java-9">available at InfoQ</a>.
 

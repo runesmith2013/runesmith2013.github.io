@@ -20,9 +20,16 @@ In this talk we will look at the differences between micro-services and monolith
 
 We will look at how micro-service architecture can be implemented under low latency constraints of 10 - 100 micro-second latencies, in Java in particular, and how these strategies reduce the impact of serializing data and logging.
 
+The
+<a href="{{ site.github.url }}/presentations/2016/Latency Sensitive Microservices in Java - Docklands LJC 2016.pptx" rel="nofollow">presentation</a> from this session is now available.
+
+
 <h2>Stephen Colebourne - Strata, the new Open Source Library for Market Risk</h2>
 
 Strata is the new Open Source library for market risk from OpenGamma, written in Java 8. It follows the many of the design principles of Joda-Time and JSR-310, bringing easy-to-use and high quality open source to the domain of quantitative finance and market risk. In this talk Stephen will show how the library allows you to price financial instruments like interest rate swaps and options, demonstrating the key elements of the library including curves, conventions and holiday calendars. So if you work in finance, or are interested in what a well-designed Java 8 library looks like, do come along and see how open source can change finance.
+
+The
+<a href="{{ site.github.url }}/presentations/2016/Strata Docklands Sep16.pptx" rel="nofollow">presentation</a> from this session is now available.
 
 
 <h2>Bios</h2>

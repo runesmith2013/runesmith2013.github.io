@@ -46,10 +46,6 @@ recorded from the event are displayed below:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/d6IrGxCIsGQ" frameborder="0" allowfullscreen></iframe>
 
-<video width="640" height="320" controls>
- <source src="//www.docklandsljc.uk/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.mp4" type="video/mp4"/>
- Your browser does not support the &lt;video&gt; tag or does not understand MP4 files.
-</video>
 
 <h2>Bios</h2>
 

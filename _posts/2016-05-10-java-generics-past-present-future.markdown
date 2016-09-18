@@ -40,9 +40,7 @@ now is your chance!
 
 The
 <a href="{{ site.github.url }}/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.pdf" rel="nofollow">presentation</a>
-and 
-<a href="//www.docklandsljc.uk/presentations/2016/Richard-Raoul-GenericsPastPresentFuture.mp4" rel="nofollow">video</a>
-recorded from the event are displayed below:
+and video recorded from the event are displayed below:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/d6IrGxCIsGQ" frameborder="0" allowfullscreen></iframe>
 

@@ -1,21 +1,42 @@
 ---
 layout: default
 ---
-yadda101
+yadda102
         
 
 |---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row
+| Speaker | Details | 
+| Martijn Verburg | Censum from jClarity
+| Martijn Verburg | Censum from jClarity
 
+
+
+
+		
+
+
+John Oliver
+
+Censum from jClarity
+
+about safepoints/performance
+
+martijnverburg@gmail.com
+
+john@jclarity.com
+
+Josh Long	Spring, needs 2-3 hours, only in 2017	
+tisenberg@pivotal.io
+
+jlong@pivotal.io
+
+Neil Bartlett
+
+Mike Francis
+
+Paremus - Jigsaw and OSGi	mike.francis@paremus.com
+Simon Ritter	Embedded java	
+Matthew Revell	Couchbase	matthew@couchbase.com
 
 
 

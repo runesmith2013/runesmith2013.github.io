@@ -2,12 +2,27 @@
 layout: default
 ---
 yadda102
-        
 
+<div class="blog-index">
+  <article class="hentry" role="article">
+    <header>
+      <h1 class="entry-title">About</h1>
+    </header>
+    <div class="entry-content">
+    
+      <p>
 |---
 | Speaker | Details | 
 | Martijn Verburg | Censum from jClarity
-| Martijn Verburg | Censum from jClarity
+| john@jclarity.com | about safepoints/performance      
+      
+      </p>
+    </div>
+  </article>
+</div>
+
+
+
 
 
 
@@ -19,11 +34,11 @@ John Oliver
 
 Censum from jClarity
 
-about safepoints/performance
+
 
 martijnverburg@gmail.com
 
-john@jclarity.com
+
 
 Josh Long	Spring, needs 2-3 hours, only in 2017	
 tisenberg@pivotal.io

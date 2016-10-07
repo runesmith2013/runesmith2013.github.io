@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-yadda103
+yadda104
 
-<div class="blog-index">
+<div class="blog-index" markdown="block">
+
   <article class="hentry" role="article">
     <header>
       <h1 class="entry-title">About</h1>
     </header>
     <div class="entry-content">
-    
+   
       <p>
 |---
 | Speaker | Details | 
@@ -19,6 +20,7 @@ yadda103
       </p>
     </div>
   </article>
+
 </div>
 
 

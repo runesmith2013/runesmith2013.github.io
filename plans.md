@@ -3,14 +3,8 @@ layout: default
 ---
 yadda107
 
-# Headline1
-------------
 
 {::options parse_block_html="true" /}
-<div>
-# Headline2
-------------
-</div>
 
 <div class="blog-index" markdown="block">
 

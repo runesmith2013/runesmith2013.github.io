@@ -1,27 +1,16 @@
 ---
 layout: post
 ---
-yadda108
+yadda109
 
 
-{::options parse_block_html="true" /}
 
-<div class="blog-index" markdown="block">
-
-  
-    <div class="entry-content">
-   
-      <p>
 |---
 | Speaker | Details | 
 | Martijn Verburg | Censum from jClarity
 | john@jclarity.com | about safepoints/performance      
       
-      </p>
-    </div>
-  
-</div>
-
+ 
 
 
 
@@ -57,9 +46,4 @@ Matthew Revell	Couchbase	matthew@couchbase.com
 
 
 
-<aside class="sidebar">
-  {% include custom/asides/canary.html %}
-  {% include asides/recent_posts.html %}
-  {% include custom/asides/ljc.html %}
-  {% include custom/asides/infoq.html %}
-</aside>
+

@@ -2,33 +2,25 @@
 layout: post
 ---
 <style>
-table{
+table {
     border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #000000;
     width: 100%;
-    
-}
-
-th{
-    border:2px solid #000000;
-     text-align: left;
-      background-color: #4CAF50;
-    
-}
-
-td{
-    border:1px solid #000000;
 }
 
 th, td {
-    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2}
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
 
 </style>
-yadda112
+yadda113
 
 
 

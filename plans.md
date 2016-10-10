@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 ---
-yadda107
+yadda108
 
 
 {::options parse_block_html="true" /}

@@ -30,7 +30,7 @@ yadda113
 | Martijn Verburg | Censum from jClarity
 | john@jclarity.com | about safepoints/performance      
       
- 
+ <p>
 
 | Item | Description | Price |
 | --- | --- | ---: |

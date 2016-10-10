@@ -34,6 +34,7 @@ yadda111
 
 |---
 | Speaker | Details | 
+| --- | --- | 
 | Martijn Verburg | Censum from jClarity
 | john@jclarity.com | about safepoints/performance      
       

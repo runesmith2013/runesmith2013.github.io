@@ -43,7 +43,7 @@ th {
 |---
 | Speaker | Topic|  Status | 
 | --- | --- | --- | 
-| Simon Ritter | Azul | Awaiting brief 
+| <a href='mailto:sritter@azul.com'>Simon Ritter</a> | Azul | Awaiting brief 
 
 
 

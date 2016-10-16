@@ -29,8 +29,8 @@ th {
 |---
 | Speaker | Topic|  Status | 
 | --- | --- | --- | 
-| Neil Bartlett | OSGi and Java 9 | Confirmed 
-| Phil Aston | Push Technologies | Confirmed 
+|<a href='mailto:neil.bartlett@paremus.com'>Neil Bartlett</a> , <a href='mailto:mike.francis@paremus.com'>Mike Francis</a> | Java 9, OSGi and The Future of Modularity | Confirmed 
+| <a href='mailto:paston@pushtechnology.com'>Phil Aston</a> | Diffusion: Anatomy of a high-performance Java server | Confirmed 
 
       
  <p/>

@@ -20,10 +20,11 @@ th {
 }
 
 </style>
-yadda114
+yadda115
 
-November 
-========
+# Speaker Calendar
+
+## November 2016
 
 |---
 | Speaker | Topic|  Status | 
@@ -34,23 +35,36 @@ November
       
  <p/>
 
-| Item | Description | Price |
-| --- | --- | ---: |
-| item1 | item1 description | 1.00 |
-| item2 | item2 description | 100.00 |
+## December 2016
+
+
+## January 2017
+|---
+| Speaker | Topic|  Status | 
+| --- | --- | --- | 
+| Simon Ritter | Azul | Awaiting brief 
 
 
 
-Potential Speakers
-==================
+
+# Potential Speakers
+
+|---
+| Speaker | Topic|  Status | 
+| --- | --- | --- | 
+| John Oliver | Censum from jClarity | Unconfirmed 
+| Josh Long | Spring, needs 2-3 hours, only in 2017| Unconfirmed 
+| Matthew Revell | Couchbase| Unconfirmed 
+| Scott James | Docker| Unconfirmed 
+
 
 
 		
 
 
-John Oliver
 
-Censum from jClarity
+
+
 
 
 
@@ -58,18 +72,13 @@ martijnverburg@gmail.com
 
 
 
-Josh Long	Spring, needs 2-3 hours, only in 2017	
+		
 tisenberg@pivotal.io
 
 jlong@pivotal.io
 
-Neil Bartlett
-
-Mike Francis
-
-Paremus - Jigsaw and OSGi	mike.francis@paremus.com
 Simon Ritter	Embedded java	
-Matthew Revell	Couchbase	matthew@couchbase.com
+		matthew@couchbase.com
 
 
 

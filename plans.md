@@ -53,8 +53,8 @@ th {
 |---
 | Speaker | Topic|  Status | 
 | --- | --- | --- | 
-| John Oliver | Censum from jClarity | Unconfirmed 
-| <a href='mailto:jlong@pivotal.io'>Josh Long</a> | Spring, needs 2-3 hours, only in 2017| Unconfirmed 
+| John Oliver, <a href='mailto:martijnverburg@gmail.com'>Martijn Verburg </a> | Censum from jClarity | Unconfirmed 
+| <a href='mailto:jlong@pivotal.io'>Josh Long</a>, <a href='tisenberg@pivotal.io'>Tasha Isenberg</a> | Spring, needs 2-3 hours, only in 2017| Unconfirmed 
 | <a href='mailto:matthew@cuchbase.com'>Matthew Revell | Couchbase| Unconfirmed 
 | Scott James | Docker| Unconfirmed 
 | Simon Maple | JRebel| Unconfirmed 
@@ -80,12 +80,12 @@ th {
 
 
 
-martijnverburg@gmail.com
+
 
 
 
 		
-tisenberg@pivotal.io
+
 
 
 

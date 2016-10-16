@@ -22,13 +22,15 @@ th {
 </style>
 yadda114
 
-
+November 
+========
 
 |---
-| Speaker | Details | 
-| --- | --- | 
-| Martijn Verburg | Censum from jClarity
-| john@jclarity.com | about safepoints/performance      
+| Speaker | Topic|  Status | 
+| --- | --- | --- | 
+| Neil Bartlett | OSGi and Java 9 | Confirmed 
+| Phil Aston | Push Technologies | Confirmed 
+
       
  <p/>
 
@@ -38,6 +40,9 @@ yadda114
 | item2 | item2 description | 100.00 |
 
 
+
+Potential Speakers
+==================
 
 
 		

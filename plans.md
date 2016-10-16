@@ -15,12 +15,12 @@ th, td {
 tr:nth-child(even){background-color: #f2f2f2}
 
 th {
-    background-color: #4CAF50;
+    background-color: #2b3038;
     color: white;
 }
 
 </style>
-yadda113
+yadda114
 
 
 
@@ -30,7 +30,7 @@ yadda113
 | Martijn Verburg | Censum from jClarity
 | john@jclarity.com | about safepoints/performance      
       
- <p>
+ <p/>
 
 | Item | Description | Price |
 | --- | --- | ---: |

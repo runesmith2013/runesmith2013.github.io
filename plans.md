@@ -20,7 +20,7 @@ th {
 }
 
 </style>
-yadda116
+
 
 # Speaker Calendar
 
@@ -54,10 +54,21 @@ yadda116
 | Speaker | Topic|  Status | 
 | --- | --- | --- | 
 | John Oliver | Censum from jClarity | Unconfirmed 
-| Josh Long | Spring, needs 2-3 hours, only in 2017| Unconfirmed 
-| Matthew Revell | Couchbase| Unconfirmed 
+| <a href='mailto:jlong@pivotal.io'>Josh Long</a> | Spring, needs 2-3 hours, only in 2017| Unconfirmed 
+| <a href='mailto:matthew@cuchbase.com'>Matthew Revell | Couchbase| Unconfirmed 
 | Scott James | Docker| Unconfirmed 
+| Simon Maple | JRebel| Unconfirmed 
+| Steve Elliott | General Java| Unconfirmed 
+| Simon Ritter | Embedded Java| Unconfirmed 
+| JRuby guy? | ?? | ??
+| Mark Needham | ?? | ??
 
+
+
+# Potential Topics
+
+* Java 9
+* Alternative languages - Kotlin, Scala, etc
 
 
 		
@@ -76,10 +87,10 @@ martijnverburg@gmail.com
 		
 tisenberg@pivotal.io
 
-jlong@pivotal.io
 
-Simon Ritter	Embedded java	
-		matthew@couchbase.com
+
+
+		
 
 
 

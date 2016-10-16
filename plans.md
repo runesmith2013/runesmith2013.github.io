@@ -60,8 +60,9 @@ th {
 | Simon Maple | JRebel| Unconfirmed 
 | Steve Elliott | General Java| Unconfirmed 
 | Simon Ritter | Embedded Java| Unconfirmed 
-| JRuby guy? | ?? | ??
 | Mark Needham | ?? | ??
+| Chris Seaton | Truffle / Graal revisit | ??
+
 
 
 

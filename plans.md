@@ -62,6 +62,11 @@ th {
 | Simon Ritter | Embedded Java| Unconfirmed 
 | Mark Needham | ?? | ??
 | Chris Seaton | Truffle / Graal revisit | ??
+| Daniel Bryant | 7 more deadly sins of microservices | ??
+| John Davies | 7 more deadly sins of microservices | ??
+
+
+
 
 
 

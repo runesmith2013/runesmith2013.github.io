@@ -1,23 +1,26 @@
-permalink	layout	title	date	comments	categories
-2016/09/strata-low-latency-microservices.html
-post
-Strata and Low Latency Microservices in Java
-2016-09-13 18:30
-false
-2016
-Peter Lawrey
-Stephen Colebourne
+---
+permalink: 2016/09/strata-low-latency-microservices.html
+layout: post
+title: "Strata and Low Latency Microservices in Java"
+date: 2016-09-13 18:30
+comments: false
+categories: 
+- '2016'
+- 'Peter Lawrey' 
+- 'Stephen Colebourne'
+---
 We are pleased to bring you the fourteenth event of the Docklands.LJC; a group within the main London Java Community that focuses on the developer community in and around Docklands on the 2nd Tuesday of each month. Our speakers this month are Peter Lawrey and Stephen Colebourne
 
-Peter Lawrey - Low latency Microservices in Java
+<h2>Peter Lawrey - Low latency Microservices in Java</h2>
 
 In this talk we will look at the differences between micro-services and monolith architectures and their relative benefits and disadvantages. We will look at design patterns which will allow us to utilize these different strategies as a deployment concern without significant changes to the business logic.
 
 We will look at how micro-service architecture can be implemented under low latency constraints of 10 - 100 micro-second latencies, in Java in particular, and how these strategies reduce the impact of serializing data and logging.
 
-The presentation from this session is now available.
+The
+<a href="{{ site.github.url }}/presentations/2016/Latency Sensitive Microservices in Java - Docklands LJC 2016.pdf" rel="nofollow">presentation</a> from this session is now available.
 
-Stephen Colebourne - Strata, the new Open Source Library for Market Risk
+<h2>Stephen Colebourne - Strata, the new Open Source Library for Market Risk</h2>
 
 Strata is the new Open Source library for market risk from OpenGamma, written in Java 8. It follows the many of the design principles of Joda-Time and JSR-310, bringing easy-to-use and high quality open source to the domain of quantitative finance and market risk. In this talk Stephen will show how the library allows you to price financial instruments like interest rate swaps and options, demonstrating the key elements of the library including curves, conventions and holiday calendars. So if you work in finance, or are interested in what a well-designed Java 8 library looks like, do come along and see how open source can change finance.
 

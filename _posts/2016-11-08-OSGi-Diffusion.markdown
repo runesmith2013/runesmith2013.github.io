@@ -17,9 +17,6 @@ Our speakers this month are Neil Bartlett and Phil Aston.
 
 As the spaces are limited, places will be preferentially allocated to those who have attended previously and first-timers; those with a low attendance record may be removed. 
 
-** Please note **
-Your full name is required in order to attend. 
-If your username is not your full name, please add it when registering, otherwise you will be REMOVED from the event.
 
 <h2>Neil Bartlett - Java 9, OSGi and The Future of Modularity</h2>
 

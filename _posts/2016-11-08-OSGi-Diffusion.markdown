@@ -43,9 +43,7 @@ Phil Aston, one of Diffusion's principal architects, will open the covers and pr
 Phil Aston has been a coding architect for Push Technology for the past three years. In previous lives, he worked for BEA and Oracle, specialising in WebLogic Server and Coherence, co-authored two books on WebLogic, and created The Grinder, a popular Java load-testing tool.
 
 <hr/>
-This event is being hosted by Barclays in London. Sign-up information is available at <a href="https://www.meetup.com/Londonjavacommunity/events/233870941/">Meetup.com</a>.
+This event is being hosted by Barclays in London. Sign-up information is available at <a href="https://www.meetup.com/Londonjavacommunity/events/235150732/">Meetup.com</a>.
 
 
-<hr/>
-This event is being hosted by Barclays in London. Sign-up information is available at <a href="https://www.meetup.com/Londonjavacommunity/events/233870941/">Meetup.com</a>.
 

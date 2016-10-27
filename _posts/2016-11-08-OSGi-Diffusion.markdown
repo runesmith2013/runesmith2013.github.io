@@ -13,9 +13,8 @@ categories:
 
 
 We are pleased to bring you the fifteenth event of the Docklands.LJC; a group within the main London Java Community that focuses on the developer community in and around Docklands on the 2nd Tuesday of each month.
-Our speakers this month are Neil Bartlett and Phil Aston. 
 
-As the spaces are limited, places will be preferentially allocated to those who have attended previously and first-timers; those with a low attendance record may be removed. 
+Our speakers this month are Neil Bartlett and Phil Aston. 
 
 
 <h2>Neil Bartlett - Java 9, OSGi and The Future of Modularity</h2>

@@ -24,12 +24,17 @@ Eclipse and OSGi developers have been building modular Java applications since t
 
 In this talk I will briefly compare and contrast the new module system with OSGi, and then move on to discuss the opportunities and challenges for Eclipse/OSGi applications. I will show a demonstration of cross-dependencies between OSGi bundles and JDK modules, and show the potential for assembling applications using a combination of Eclipse and new JDK tooling.
 
+The
+<a href="{{ site.github.url }}/presentations/2016/NeilBartlettOSGiJPMS.pdf" rel="nofollow">presentation</a> from this session is now available.
+
 <h2>Phil Aston - Diffusion: Anatomy of a high-performance Java server</h2>
 
 Diffusion from Push Technology provides real-time data distribution for web, mobile, and IoT applications. The server is written in Java, and can broadcast millions of messages a second across hundreds of thousands of sessions using a single JVM. 
 
 Phil Aston, one of Diffusion's principal architects, will open the covers and present the techniques applied to achieve this level of performance. The talk will be of interest to those applying Java in high-volume, event-driven environments
 
+The
+<a href="{{ site.github.url }}/presentations/2016/PhilAstonDiffusion.pdf" rel="nofollow">presentation</a> from this session is now available.
 
 
 <h2>Bios</h2>

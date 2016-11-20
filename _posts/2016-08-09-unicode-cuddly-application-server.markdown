@@ -38,8 +38,8 @@ discussing with your boss).
 
 Source code is available at <a href="https://github.com/holly-cummins/throwable-application-server">https://github.com/holly-cummins/throwable-application-server</a> if you'd like further information.
 
-The
-<a href="{{ site.github.url }}/presentations/2016/HollyCummins-ThrowableCuddlyApplicationServer.pdf" rel="nofollow">presentation</a> from the event is displayed below:
+The slides from the presentation are available
+<a href="{{ site.github.url }}/presentations/2016/HollyCummins-ThrowableCuddlyApplicationServer.pdf" rel="nofollow">here</a> 
 <!--
 and 
 <a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderTheHoo
@@ -78,18 +78,9 @@ can take up to 10 characters to represent.
 The
 <a href="{{ site.github.url }}/presentations/2016/AlexBlewitt-BriefHistoryOfUnicode.pdf" rel="nofollow">presentation</a>
 is available below:
-<!--
-and 
-<a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-BriefHistoryOfUnicode.mp4" rel="nofollow">video</a>
-recorded from the event are displayed below:
 
-<video width="640" height="320" controls>
- <source src="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderT
-heHood.mp4" type="video/mp4"/>
- Your browser does not support the &lt;video&gt; tag or does not understand MP4 
-files.
-</video>
--->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cZaEAeKTldg" frameborder="0" allowfullscreen></iframe>
 
 <script async class="speakerdeck-embed" data-id="224e654abb48488e83487263d791458a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 

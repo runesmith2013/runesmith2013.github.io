@@ -40,21 +40,8 @@ Source code is available at <a href="https://github.com/holly-cummins/throwable-
 
 The slides from the presentation are available
 <a href="{{ site.github.url }}/presentations/2016/HollyCummins-ThrowableCuddlyApplicationServer.pdf" rel="nofollow">here</a> 
-<!--
-and 
-<a href="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderTheHoo
-d.mp4" rel="nofollow">video</a>
-recorded
--->
 
-<!--
-<video width="640" height="320" controls>
- <source src="//www.docklandsljc.uk/presentations/2016/AlexBlewitt-HotSpotUnderT
-heHood.mp4" type="video/mp4"/>
- Your browser does not support the &lt;video&gt; tag or does not understand MP4 
-files.
-</video>
--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8DB-bIUUaq0" frameborder="0" allowfullscreen></iframe>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/4HkAUbfp22ijtT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HollyCummins/the-cuddly-throwable-application-server" title="The Cuddly Throwable Application Server" target="_blank">The Cuddly Throwable Application Server</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/HollyCummins">Holly Cummins</a></strong> </div>
 

@@ -34,8 +34,9 @@ Diffusion from Push Technology provides real-time data distribution for web, mob
 Phil Aston, one of Diffusion's principal architects, will open the covers and present the techniques applied to achieve this level of performance. The talk will be of interest to those applying Java in high-volume, event-driven environments
 
 The
-<a href="{{ site.github.url }}/presentations/2016/PhilAstonDiffusion.pdf" rel="nofollow">presentation</a> from this session is now available.
+<a href="{{ site.github.url }}/presentations/2016/PhilAston-Diffusion.pdf" rel="nofollow">presentation</a> from this session is now available.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gC_1YqFFN9g" frameborder="0" allowfullscreen></iframe>
 
 <h2>Bios</h2>
 

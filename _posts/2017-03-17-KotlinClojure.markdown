@@ -1,7 +1,7 @@
 ---
 permalink: 2017/03/KotlinClojure.html
 layout: post
-title: "KotlinClojure"
+title: "Alternative Languages: Kotlin and Clojure"
 date: 2017-03-17 18:30
 comments: false
 categories: 
@@ -17,6 +17,7 @@ Our two speakers this month are Oliver Hine from Credit Suisse and Richard Green
 As the spaces are limited, places will be preferentially allocated to those who have attended previously and first-timers; those with a low attendance record may be removed. 
 
 *** Please note ***
+
 Your *FULL NAME* is required by building security in order to attend.
 If your username is not your full name, please add it when registering, otherwise you will be REMOVED from the event.
 

@@ -23,6 +23,9 @@ If your username is not your full name, please add it when registering, otherwis
 
 *********************
 
+<hr/>
+This event is being hosted by Barclays in London. Sign-up information is available at <a href="https://www.meetup.com/Londonjavacommunity/events/238211610/">Meetup.com</a>.
+
 Arrive from 6:15pm, talks will begin promptly at 6:30pm. 
 Attendees arriving after 6:40pm will not be admitted.
 

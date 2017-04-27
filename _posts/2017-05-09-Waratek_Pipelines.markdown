@@ -10,7 +10,7 @@ categories:
 ---
 
 
-We are pleased to bring you the next event of the Doc2klands.LJC; a group within the main London Java Community that focuses on the developer community in and around Docklands each month.
+We are pleased to bring you the next event of the Docklands.LJC; a group within the main London Java Community that focuses on the developer community in and around Docklands each month.
 
 Our speakers this month are John Matthew Holt, founder and CTO of Waratek and Abraham Marin-Perez, one of the leaders of the London Java Community.
 They're both engaging and experienced speakers, so attendance is highly recommended.

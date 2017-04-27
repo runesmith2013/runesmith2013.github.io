@@ -1,12 +1,12 @@
 ---
-permalink: 2017/03/KotlinClojure.html
+permalink: 2017/05/SecurityPipeline.html
 layout: post
-title: "Alternative Languages: Kotlin and Clojure"
-date: 2017-03-17 18:30
+title: " Advances in Java Security / A more efficient Build Pipeline"
+date: 2017-05-09 18:30
 comments: false
 categories: 
 - '2017'
-- 'Mohammed Hajii' 
+
 ---
 
 
